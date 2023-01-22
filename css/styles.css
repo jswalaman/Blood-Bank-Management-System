@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header{
+    /* background-color: #333; */
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand{
+    margin-top: 20px;
+    margin-left: 2em;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 3em;
+    color: #333;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 550;
+}
+
+.aboutsec{
+    display: flex;
+    width: 100%;
+}
+
+.imagesec{
+    width: 45%;
+}
+
+.textsec{
+    margin-top: 100px;
+    width: 55%;
+}
+
+.aboutsec div{
+    margin-top: 30px;
+}
+
+.headdding{
+    font-family: 'Passion One', cursive;
+    font-size: 70px;
+    color: #ff140d;
+}
+
+.parra{
+    margin-right: 5em;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.buttons button{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 9px 14px;
+    color: white;
+    background-color: #ff140d;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    justify-content: space-around;
+    margin-right: 3em;
+    width: 150px;
+}
+
+
+.buttons button:hover{
+    background-color: white;
+    color: #ff140d;
+}
+
+.social2{
+    width: 55%;
+    padding-top: 30px;
+    padding-left: 680px;
+}
+
+
+.social2{
+
+    color: #ff140d;
+}
+
+.social2 a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid;
+    border: 1px solid;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15%;
+    margin: 0 0px;
+    margin-right: 4px;
+    opacity: 0.75;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* login and registration css */
